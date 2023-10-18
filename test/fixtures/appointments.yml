@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  patient_f_name: MyString
+  patient_l_name: MyString
+  age: 1
+  sex: MyString
+  weight: 1
+  pre_existing_condition: MyString
+  appointment_date: 2023-10-18
+  appointment_time: 2023-10-18 09:06:48
+
+two:
+  patient_f_name: MyString
+  patient_l_name: MyString
+  age: 1
+  sex: MyString
+  weight: 1
+  pre_existing_condition: MyString
+  appointment_date: 2023-10-18
+  appointment_time: 2023-10-18 09:06:48

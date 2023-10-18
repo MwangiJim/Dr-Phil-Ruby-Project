@@ -1,0 +1,10 @@
+
+
+<%= render @appointment %>
+
+<div>
+  <%= link_to "Edit this appointment", edit_appointment_path(@appointment) ,class:"btn btn-secondary"%> |
+  <%= link_to "Back to appointments", appointments_path ,class:"btn btn-secondary"%>
+ <br/><br/>
+  <%= button_to "Destroy this appointment", @appointment, method: :delete ,class:"btn btn-danger"%>
+</div>
